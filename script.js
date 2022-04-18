@@ -89,7 +89,7 @@ btnHold.addEventListener('click', function () {
       scores[activePlayer];
 
     //CHECK IF THE PLAYER'S SCORE IS ACTUALLY >= 100
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       //FINISH THE GAME
       playing = false;
       diceEl.classList.add('hidden');
