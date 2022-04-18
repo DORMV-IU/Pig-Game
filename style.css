@@ -173,3 +173,9 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+
+.hidden {
+  opacity: 0;
+  visibility: hidden; /*alt: visible*/
+  transition: opacity 0.1s;
+}
